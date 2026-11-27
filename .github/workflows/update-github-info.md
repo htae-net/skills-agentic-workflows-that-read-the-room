@@ -11,6 +11,7 @@ permissions:
 engine:
   id: copilot
   copilot-sdk: true
+  model: router/balanced
 tools:
   edit: 
   web-fetch: 
