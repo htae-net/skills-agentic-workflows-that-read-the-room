@@ -12,6 +12,9 @@ engine:
   id: copilot
   copilot-sdk: true
   model: claude-haiku-4.5
+  fallback-models:
+    - copilot/gpt-5
+    - copilot/gemini-2.5-pro
 tools:
   edit: 
   web-fetch: 
