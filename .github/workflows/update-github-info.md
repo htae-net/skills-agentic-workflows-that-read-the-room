@@ -11,7 +11,7 @@ permissions:
 engine:
   id: copilot
   copilot-sdk: true
-  model: gpt-5
+  model: gpt-5.3
 tools:
   edit: 
   web-fetch: 
