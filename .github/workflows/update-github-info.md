@@ -10,7 +10,7 @@ permissions:
   contents: read
 engine:
   id: gemini
-  model: gemini-4-hydrogen
+  model: gemini-3.5-flash-lite
 tools:
   edit: 
   web-fetch: 
