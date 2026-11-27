@@ -11,7 +11,6 @@ permissions:
 engine:
   id: copilot
   copilot-sdk: true
-  model: sonnet-6x
 tools:
   edit: 
   web-fetch: 
