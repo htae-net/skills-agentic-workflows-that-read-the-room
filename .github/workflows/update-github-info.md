@@ -8,9 +8,7 @@ on:
   skip-if-match: 'is:pr is:open "gh-aw-workflow-id: update-github-info" in:body'
 permissions:
   contents: read
-engine:
-  id: copilot
-  copilot-sdk: true
+engine: gemini
 tools:
   edit: 
   web-fetch: 
@@ -22,6 +20,7 @@ network:
     - github.com
     - awesome-copilot.github.com
 safe-outputs:
+  threat-detection: false
   create-pull-request:
     reviewers: [mona]
     draft: false
