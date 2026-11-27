@@ -20,6 +20,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     reviewers: [mona]
@@ -31,7 +32,9 @@ safe-outputs:
 # Update GitHub Info
 
 Read `notes/mona-notes.md` and the existing `site/content/github-info.md` before making changes.
-Fetch both `https://github.blog/latest/` and `https://github.blog/changelog/`.
+Fetch `https://github.blog/latest/`, `https://github.blog/changelog/`, and
+`https://awesome-copilot.github.com/workflows/`. Use Awesome Copilot workflows as an
+additional source alongside the GitHub Blog and Changelog.
 
 Select only recent, useful updates that help developers learn GitHub faster. Keep the
 content short and practical, preserve its existing structure, and cite the relevant
