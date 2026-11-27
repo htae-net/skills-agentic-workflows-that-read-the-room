@@ -8,7 +8,9 @@ on:
   skip-if-match: 'is:pr is:open "gh-aw-workflow-id: update-github-info" in:body'
 permissions:
   contents: read
-engine: gemini
+engine:
+  id: gemini
+  model: gemini-4-hydrogen
 tools:
   edit: 
   web-fetch: 
